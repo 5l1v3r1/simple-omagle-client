@@ -1,0 +1,17 @@
+<div class="container">
+      <div class="row">
+            <input type="text" [(ngModel)]="userName">
+            <div>
+                  <button #startButton [disabled]="startButtonDisabled" (click)="start(true)">Start</button>
+
+                  <button #changeButton  (click)="change()">Change </button>
+            </div>
+            <ul>
+                  <li *ngFor="let user of Users" (click)="birineBaglan(user.connectionId)">{{user.username}}-{{user.connectionId}}</li>
+            </ul>
+      </div>
+      <div class="row">
+            <video #localVideo playsinline autoplay style="height: 300px;width: 300px;"></video>
+            <video #remoteVideo playsinline autoplay style="height: 300px;width: 300px;"></video>
+      </div>
+</div>
