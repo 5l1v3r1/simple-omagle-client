@@ -6,3 +6,11 @@ Kullanıcı arayüz kısmı
 
 ![simple-omagle](https://user-images.githubusercontent.com/24223180/40421251-eb678bc2-5e93-11e8-8ecd-ccfc5b142e8f.jpeg)
 
+Kullanmak isteyen kullanıcıların dikkatine
+
+Video konferansını ağ üzerinde test etmek isterseniz
+
+1-) ssl sertifikanızı oluşturmanız gerekmekte chrome video konferansı için ssl sertifikasını istemekte
+2-) sunucularınızın portlarını ve ağ izinlerini sağlamalısınız
+3-) Chrome güvenli modunu devre dışı bırakmalısınız. Çünkü aynı bilgisar üzerinde çalışan sunucularda güvenlik problemi çıkarmakta.
+
